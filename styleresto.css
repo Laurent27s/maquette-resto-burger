@@ -1,0 +1,138 @@
+@font-face{
+    font-family: "PlayfairDisplay";
+    src:url("font/PlayfairDisplay-Regular.ttf")format("ttf");
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "PlayfairDisplay";
+}
+#imgHeader {
+    background-image: url("img/hamburger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    color: grey;
+}
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: grey;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+
+#blocs {
+    
+    flex-wrap: wrap;
+    
+}
+    
+
+    #bloc1{
+        display: flex;
+        padding:10px 10px;
+        margin-block-start:20px ;
+        justify-content: center;
+        align-content: flex-end;
+        text-align: left;
+        
+
+        }
+    #bloc2{
+        display: flex;
+        padding:10px 10px;
+        justify-content: center;
+        margin-block-start:20px ;
+
+       
+        }
+    
+    
+    main{
+        width: 80%;
+        margin: auto;
+    }
+    .carro{
+        width: 50%;
+        padding: 10px;
+    }
+    .carro img{
+        width: 100%;
+    }
+    h2{
+       text-align-last: center;
+    }
+    h3{
+        text-align-last: center;
+     }
+     form{
+        display: flex;
+        flex-direction: column;
+    }
+    input,textarea{
+    padding: 0.1rem;
+    margin: .3rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-width: .1px;        
+    }
+    form button{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    justify-content: left;
+    }
+    .contact{
+        text-align-last: left;
+        
+    }
+    .colortext{
+        color: grey;
+        line-height: 25px;
+    }
+    .board{
+        border-color: turquoise;
+        border-width: 0.05px;
+    }
+    h5{
+        font-size: large;
+        text-decoration-color: slategray;
+    }
+    footer{
+        padding-top: 1rem;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(231, 227, 227);
+    }
+    footer a{
+        color: black;
+        text-decoration: none;
+        font-style: oblique;
+    }
+    .marge{
+        line-height: 25px;
+    }
+    .cc{
+        color: slategray;
+    }
